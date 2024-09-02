@@ -12,6 +12,14 @@ def prevenir_suspension():
 
 # Ejecutar la función en un bucle
 try:
+    print('****************************************************')
+    print('****************************************************')
+    print('**                                                **')
+    print('** Programa para evitar el apagado de la pantalla **')
+    print('**                                                **')
+    print('****************************************************')
+    print('****************************************************')
+    
     while True:
         prevenir_suspension()
         time.sleep(60)  # Mantener la pantalla activa cada 60 segundos
